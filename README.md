@@ -1,0 +1,28 @@
+# Apple — Omarchy Theme
+
+An Apple-inspired theme for [Omarchy](https://omarchy.org/). Graphite surfaces with Apple system colors, a custom apple-bitten Omarchy logo, and dynamic accent colors that match each of 26 Apple product/finish wallpapers.
+
+## Features
+
+- **Graphite accent** (`#A8A8AA`) by default — Apple's signature neutral
+- **26 Apple wallpapers** — Black, Space Gray, Silver, Starlight, White, Gold, Rose Gold, Midnight, Blue, Sky Blue, Purple, Pink, Product Red, Orange, Yellow, Green, Mint, Teal, Graphite, Deep Purple, Sierra Blue, Alpine Blue, Natural, Titanium, and more
+- **Dynamic accent** — cycling backgrounds automatically updates the accent color, cursor, keyboard, mouse, and bar logo to match the wallpaper's dominant color
+- **Apple-bitten Omarchy logo** — custom TTF font (`omarchy-oligarchy.ttf`) with the Omarchy square + apple bite + leaf at `\ue900`
+- **Rounded borders** — 10px window rounding for a macOS feel
+- **Apple system colors** — magenta, cyan, blue, green, red, yellow, orange, brown
+
+## Install
+
+### Option 1: Via Omarchy CLI
+```bash
+omarchy theme install https://github.com/JoeJoeflyn/omarchy-apple-theme
+```
+
+### Option 2: Apply Manually
+```bash
+omarchy theme set apple
+```
+
+## Wallpapers
+
+Place Apple wallpapers in `~/.config/omarchy/themes/apple/backgrounds/`. Cycle with `omarchy theme bg next` — the accent color updates automatically.

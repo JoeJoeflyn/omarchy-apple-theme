@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="4096" viewBox="0 0 1200 1200" fill="none">
+  <defs>
+    <!-- Preserve the original Omarchy silhouette exactly, only carving a subtle bite. -->
+    <mask id="apple-bite" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="1200">
+      <rect width="1200" height="1200" fill="white"/>
+      <!-- Small, restrained bite on the upper-right edge -->
+      <circle cx="1115" cy="330" r="72" fill="black"/>
+      <circle cx="1145" cy="405" r="54" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Original Omarchy path, unchanged -->
+  <path
+    clip-rule="evenodd"
+    d="m1200 1200h-480v-80h400v-1040h-479.996v160h-400v720h720v-720h-80v-80h159.996v880h-400v160h-640v-1200h1200zm-1120-80h480v-80h-400l.004-400h-80.004zm0-560h80.004v-400h400v-80h-480.004z"
+    fill="#000"
+    fill-rule="evenodd"
+    mask="url(#apple-bite)"
+  />
+
+  <!-- Subtle pixel-style leaf, sized to feel native to the original geometry -->
+  <path d="M730 112H810V72H890V112H850V152H770V192H730Z" fill="#000"/>
+</svg>
