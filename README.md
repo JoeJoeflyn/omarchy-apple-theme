@@ -27,4 +27,6 @@ omarchy theme set apple
 
 ## Wallpapers
 
-Place Apple wallpapers in `~/.config/omarchy/themes/apple/backgrounds/`. Cycle with `omarchy theme bg next` — the accent color updates automatically.
+Includes 26 Apple product and finish wallpapers out of the box. Cycle backgrounds with `omarchy theme bg next` or press `Ctrl + Super + Space` to open the background switcher — the accent color updates automatically.
+
+To add your own custom wallpapers, place them in `~/.config/omarchy/backgrounds/apple/`.
