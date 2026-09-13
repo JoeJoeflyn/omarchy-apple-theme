@@ -20,8 +20,8 @@ size-vertical    = 28
 # Shared Hyprland-derived border tokens. Surface sections reference these so
 # lock, notifications, popups, and menu-style cards stay aligned with the
 # current Hyprland active-border gradient.
-active-border            = "{{ shell_gradient hyprland_active_border accent }}"
-active-border-foreground = "{{ shell_gradient hyprland_active_border foreground }}"
+active-border            = "#A8A8AA"
+active-border-foreground = "#F5F5F7"
 
 [controls]
 # Shared state tokens for interactive control chrome (buttons, dropdowns,
@@ -129,7 +129,7 @@ background-alpha = 1.0
 text             = "#F5F5F7"
 border           = "hyprland.active-border"
 border-alpha     = 1.0
-# border-width     = 2
+border-width     = 2
 
 [tooltip]
 # Hover tooltips across the bar, panels, and buttons. background-alpha of
@@ -159,14 +159,15 @@ countdown        = "#A8A8AA"
 background                = "#1D1D1F"
 background-alpha          = 0.95
 text                      = "#F5F5F7"
-border                    = "hyprland.active-border-foreground"
+border                    = "hyprland.active-border"
 border-alpha              = 1.0
+border-width              = 2
 scrim                     = "#1D1D1F"
 scrim-alpha               = 0.5
 selected-background       = "#F5F5F7"
 selected-background-alpha = 0.08
 selected-text             = "#A8A8AA"
-selected-border           = "hyprland.active-border-foreground"
+selected-border           = "hyprland.active-border"
 selected-border-alpha     = 0.25
 
 [menu]
@@ -176,14 +177,15 @@ selected-border-alpha     = 0.25
 background                = "#1D1D1F"
 background-alpha          = 1.0
 text                      = "#F5F5F7"
-border                    = "hyprland.active-border-foreground"
+border                    = "hyprland.active-border"
 border-alpha              = 1.0
+border-width              = 2
 scrim                     = "#1D1D1F"
 scrim-alpha               = 0.5
 selected-background       = "#F5F5F7"
 selected-background-alpha = 0.08
 selected-text             = "#A8A8AA"
-selected-border           = "hyprland.active-border-foreground"
+selected-border           = "hyprland.active-border"
 selected-border-alpha     = 0.25
 
 [polkit]
@@ -213,7 +215,7 @@ accent           = "#A8A8AA"
 background       = "#1D1D1F"
 background-alpha = 0.8
 text             = "#F5F5F7"
-placeholder      = "{{ mix foreground background 34% }}"
+placeholder      = "#666668"
 text-error       = "#FF453A"
 border           = "hyprland.active-border"
 border-active    = "hyprland.active-border"
