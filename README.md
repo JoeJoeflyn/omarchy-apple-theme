@@ -15,13 +15,17 @@ An Apple-inspired theme for [Omarchy](https://omarchy.org/). Graphite surfaces w
 
 ## Install
 
-### Option 1: Via Omarchy CLI
+### Quick Setup (Enables Dynamic Accent & Custom Logo)
 ```bash
-omarchy theme install https://github.com/JoeJoeflyn/omarchy-apple-theme
+git clone https://github.com/JoeJoeflyn/omarchy-apple-theme ~/.config/omarchy/themes/apple
+~/.config/omarchy/themes/apple/setup.sh
+omarchy theme set apple
 ```
 
-### Option 2: Apply Manually
+Or if installed via Omarchy CLI:
 ```bash
+omarchy theme install https://github.com/JoeJoeflyn/omarchy-apple-theme
+~/.config/omarchy/themes/apple/setup.sh
 omarchy theme set apple
 ```
 
