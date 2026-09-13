@@ -148,7 +148,7 @@ text             = "#F5F5F7"
 # either a solid color or the full active-border gradient.
 border           = "hyprland.active-border"
 border-alpha     = 1.0
-# border-width     = 2
+border-width     = 2
 countdown        = "#A8A8AA"
 
 [launcher]
@@ -201,6 +201,7 @@ text-error       = "#FF453A"
 border           = "hyprland.active-border"
 border-error     = "#FF453A"
 border-alpha     = 1.0
+border-width     = 2
 scrim            = "#1D1D1F"
 scrim-alpha      = 0.5
 # accent is the lock-icon glyph color + text-selection tint.
@@ -221,6 +222,7 @@ border           = "hyprland.active-border"
 border-active    = "hyprland.active-border"
 border-error     = "#FF453A"
 border-alpha     = 1.0
+border-width     = 2
 # selection is the text-selection tint inside the input field.
 selection        = "#A8A8AA"
 selection-alpha  = 0.45
