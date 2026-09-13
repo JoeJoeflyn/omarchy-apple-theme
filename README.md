@@ -2,6 +2,8 @@
 
 An Apple-inspired theme for [Omarchy](https://omarchy.org/). Graphite surfaces with Apple system colors, a custom apple-bitten Omarchy logo, and dynamic accent colors that match each of 26 Apple product/finish wallpapers.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9eade81-a171-4d5a-92c0-c17ca448f798" />
+
 ## Features
 
 - **Graphite accent** (`#A8A8AA`) by default — Apple's signature neutral
